@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39D4DBEF19B47BB100F592A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D4DBEE19B47BB100F592A1 /* Foundation.framework */; };
+		39D4DBF119B47BB100F592A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D4DBF019B47BB100F592A1 /* CoreGraphics.framework */; };
+		39D4DBF319B47BB100F592A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D4DBF219B47BB100F592A1 /* UIKit.framework */; };
+		39D4DBF919B47BB100F592A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39D4DBF719B47BB100F592A1 /* InfoPlist.strings */; };
+		39D4DBFB19B47BB100F592A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D4DBFA19B47BB100F592A1 /* main.m */; };
+		39D4DBFF19B47BB100F592A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D4DBFE19B47BB100F592A1 /* AppDelegate.m */; };
+		39D4DC0219B47BB100F592A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39D4DC0019B47BB100F592A1 /* Main.storyboard */; };
+		39D4DC0519B47BB100F592A1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D4DC0419B47BB100F592A1 /* ViewController.m */; };
+		39D4DC0719B47BB100F592A1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39D4DC0619B47BB100F592A1 /* Images.xcassets */; };
+		39D4DC0E19B47BB200F592A1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D4DC0D19B47BB200F592A1 /* XCTest.framework */; };
+		39D4DC0F19B47BB200F592A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D4DBEE19B47BB100F592A1 /* Foundation.framework */; };
+		39D4DC1019B47BB200F592A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D4DBF219B47BB100F592A1 /* UIKit.framework */; };
+		39D4DC1819B47BB200F592A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39D4DC1619B47BB200F592A1 /* InfoPlist.strings */; };
+		39D4DC1A19B47BB200F592A1 /* WaqmeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D4DC1919B47BB200F592A1 /* WaqmeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39D4DC1119B47BB200F592A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39D4DBE319B47BB100F592A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39D4DBEA19B47BB100F592A1;
+			remoteInfo = Waqme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39D4DBEB19B47BB100F592A1 /* Waqme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Waqme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D4DBEE19B47BB100F592A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39D4DBF019B47BB100F592A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		39D4DBF219B47BB100F592A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		39D4DBF619B47BB100F592A1 /* Waqme-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Waqme-Info.plist"; sourceTree = "<group>"; };
+		39D4DBF819B47BB100F592A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39D4DBFA19B47BB100F592A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39D4DBFC19B47BB100F592A1 /* Waqme-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Waqme-Prefix.pch"; sourceTree = "<group>"; };
+		39D4DBFD19B47BB100F592A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39D4DBFE19B47BB100F592A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39D4DC0119B47BB100F592A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39D4DC0319B47BB100F592A1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		39D4DC0419B47BB100F592A1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		39D4DC0619B47BB100F592A1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		39D4DC0C19B47BB200F592A1 /* WaqmeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaqmeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D4DC0D19B47BB200F592A1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		39D4DC1519B47BB200F592A1 /* WaqmeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WaqmeTests-Info.plist"; sourceTree = "<group>"; };
+		39D4DC1719B47BB200F592A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39D4DC1919B47BB200F592A1 /* WaqmeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaqmeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39D4DBE819B47BB100F592A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D4DBF119B47BB100F592A1 /* CoreGraphics.framework in Frameworks */,
+				39D4DBF319B47BB100F592A1 /* UIKit.framework in Frameworks */,
+				39D4DBEF19B47BB100F592A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D4DC0919B47BB200F592A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D4DC0E19B47BB200F592A1 /* XCTest.framework in Frameworks */,
+				39D4DC1019B47BB200F592A1 /* UIKit.framework in Frameworks */,
+				39D4DC0F19B47BB200F592A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39D4DBE219B47BB100F592A1 = {
+			isa = PBXGroup;
+			children = (
+				39D4DBF419B47BB100F592A1 /* Waqme */,
+				39D4DC1319B47BB200F592A1 /* WaqmeTests */,
+				39D4DBED19B47BB100F592A1 /* Frameworks */,
+				39D4DBEC19B47BB100F592A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39D4DBEC19B47BB100F592A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39D4DBEB19B47BB100F592A1 /* Waqme.app */,
+				39D4DC0C19B47BB200F592A1 /* WaqmeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39D4DBED19B47BB100F592A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39D4DBEE19B47BB100F592A1 /* Foundation.framework */,
+				39D4DBF019B47BB100F592A1 /* CoreGraphics.framework */,
+				39D4DBF219B47BB100F592A1 /* UIKit.framework */,
+				39D4DC0D19B47BB200F592A1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39D4DBF419B47BB100F592A1 /* Waqme */ = {
+			isa = PBXGroup;
+			children = (
+				39D4DBFD19B47BB100F592A1 /* AppDelegate.h */,
+				39D4DBFE19B47BB100F592A1 /* AppDelegate.m */,
+				39D4DC0019B47BB100F592A1 /* Main.storyboard */,
+				39D4DC0319B47BB100F592A1 /* ViewController.h */,
+				39D4DC0419B47BB100F592A1 /* ViewController.m */,
+				39D4DC0619B47BB100F592A1 /* Images.xcassets */,
+				39D4DBF519B47BB100F592A1 /* Supporting Files */,
+			);
+			path = Waqme;
+			sourceTree = "<group>";
+		};
+		39D4DBF519B47BB100F592A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39D4DBF619B47BB100F592A1 /* Waqme-Info.plist */,
+				39D4DBF719B47BB100F592A1 /* InfoPlist.strings */,
+				39D4DBFA19B47BB100F592A1 /* main.m */,
+				39D4DBFC19B47BB100F592A1 /* Waqme-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39D4DC1319B47BB200F592A1 /* WaqmeTests */ = {
+			isa = PBXGroup;
+			children = (
+				39D4DC1919B47BB200F592A1 /* WaqmeTests.m */,
+				39D4DC1419B47BB200F592A1 /* Supporting Files */,
+			);
+			path = WaqmeTests;
+			sourceTree = "<group>";
+		};
+		39D4DC1419B47BB200F592A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39D4DC1519B47BB200F592A1 /* WaqmeTests-Info.plist */,
+				39D4DC1619B47BB200F592A1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39D4DBEA19B47BB100F592A1 /* Waqme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D4DC1D19B47BB200F592A1 /* Build configuration list for PBXNativeTarget "Waqme" */;
+			buildPhases = (
+				39D4DBE719B47BB100F592A1 /* Sources */,
+				39D4DBE819B47BB100F592A1 /* Frameworks */,
+				39D4DBE919B47BB100F592A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Waqme;
+			productName = Waqme;
+			productReference = 39D4DBEB19B47BB100F592A1 /* Waqme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39D4DC0B19B47BB200F592A1 /* WaqmeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D4DC2019B47BB200F592A1 /* Build configuration list for PBXNativeTarget "WaqmeTests" */;
+			buildPhases = (
+				39D4DC0819B47BB200F592A1 /* Sources */,
+				39D4DC0919B47BB200F592A1 /* Frameworks */,
+				39D4DC0A19B47BB200F592A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39D4DC1219B47BB200F592A1 /* PBXTargetDependency */,
+			);
+			name = WaqmeTests;
+			productName = WaqmeTests;
+			productReference = 39D4DC0C19B47BB200F592A1 /* WaqmeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39D4DBE319B47BB100F592A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ZeusTechnocrats;
+				TargetAttributes = {
+					39D4DC0B19B47BB200F592A1 = {
+						TestTargetID = 39D4DBEA19B47BB100F592A1;
+					};
+				};
+			};
+			buildConfigurationList = 39D4DBE619B47BB100F592A1 /* Build configuration list for PBXProject "Waqme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39D4DBE219B47BB100F592A1;
+			productRefGroup = 39D4DBEC19B47BB100F592A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39D4DBEA19B47BB100F592A1 /* Waqme */,
+				39D4DC0B19B47BB200F592A1 /* WaqmeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39D4DBE919B47BB100F592A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D4DC0719B47BB100F592A1 /* Images.xcassets in Resources */,
+				39D4DBF919B47BB100F592A1 /* InfoPlist.strings in Resources */,
+				39D4DC0219B47BB100F592A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D4DC0A19B47BB200F592A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D4DC1819B47BB200F592A1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39D4DBE719B47BB100F592A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D4DC0519B47BB100F592A1 /* ViewController.m in Sources */,
+				39D4DBFF19B47BB100F592A1 /* AppDelegate.m in Sources */,
+				39D4DBFB19B47BB100F592A1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D4DC0819B47BB200F592A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D4DC1A19B47BB200F592A1 /* WaqmeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39D4DC1219B47BB200F592A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39D4DBEA19B47BB100F592A1 /* Waqme */;
+			targetProxy = 39D4DC1119B47BB200F592A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39D4DBF719B47BB100F592A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39D4DBF819B47BB100F592A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		39D4DC0019B47BB100F592A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39D4DC0119B47BB100F592A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39D4DC1619B47BB200F592A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39D4DC1719B47BB200F592A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39D4DC1B19B47BB200F592A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		39D4DC1C19B47BB200F592A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39D4DC1E19B47BB200F592A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Waqme/Waqme-Prefix.pch";
+				INFOPLIST_FILE = "Waqme/Waqme-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		39D4DC1F19B47BB200F592A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Waqme/Waqme-Prefix.pch";
+				INFOPLIST_FILE = "Waqme/Waqme-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		39D4DC2119B47BB200F592A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Waqme.app/Waqme";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Waqme/Waqme-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WaqmeTests/WaqmeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		39D4DC2219B47BB200F592A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Waqme.app/Waqme";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Waqme/Waqme-Prefix.pch";
+				INFOPLIST_FILE = "WaqmeTests/WaqmeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39D4DBE619B47BB100F592A1 /* Build configuration list for PBXProject "Waqme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D4DC1B19B47BB200F592A1 /* Debug */,
+				39D4DC1C19B47BB200F592A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39D4DC1D19B47BB200F592A1 /* Build configuration list for PBXNativeTarget "Waqme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D4DC1E19B47BB200F592A1 /* Debug */,
+				39D4DC1F19B47BB200F592A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39D4DC2019B47BB200F592A1 /* Build configuration list for PBXNativeTarget "WaqmeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D4DC2119B47BB200F592A1 /* Debug */,
+				39D4DC2219B47BB200F592A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39D4DBE319B47BB100F592A1 /* Project object */;
+}
